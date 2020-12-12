@@ -55,7 +55,7 @@ class Radio
     puts "The radio plays: " + audio_stream
   end
 
-  private
+  protected
   
     def default_freq
       @band == 'AM' ? @@default_am_freq : @@default_fm_freq
